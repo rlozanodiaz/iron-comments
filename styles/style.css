@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    width: 100vw;
+    background-color: rgb(25, 33, 41);
+    color: rgb(255,255,255)    
+}
+
+#form-container {
+    margin: auto;
+    border: 2px solid rgb(67, 163, 230);
+    width: 250px;
+    padding: 2% 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.checkbox {
+    font-style: oblique;
+}
+
+.button {
+    background-color: rgb(67, 163, 230);
+    border-radius: 5px;
+    border:none;
+    width: 25%;
+    padding: 5px 5px;
+    color: rgb(255,255,255);
+}
